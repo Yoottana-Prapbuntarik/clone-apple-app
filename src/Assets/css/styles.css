@@ -1,0 +1,66 @@
+/* Navbar  */
+.navbarCener
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin:0 auto;
+}
+
+.navbarLink a {
+    color:white;
+    font-size: 14px;
+}
+.navbarLink a:hover{
+    text-decoration: none;
+    color: white;
+    opacity: 0.65;
+}
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+  }
+  .black{
+    top: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 40px;
+    max-height: 44px;
+    background: rgba(0,0,0,0.8);
+    font-size: 17px;
+  }
+  .setAppleIcon{
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 30px;
+  }
+
+  .navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 44px;    
+}
+@media (max-width: 767.98px) { 
+    .navbar {
+        display: flex!important; 
+        flex-wrap: wrap!important;
+        align-items: center!important;
+        justify-content: space-between!important;
+        padding: .5rem 1rem!important;
+    }
+    
+
+ }
+
+/* Home  */
+
+.topMargin{
+    margin-top:150px;
+}
