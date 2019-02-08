@@ -1,7 +1,4 @@
-  .change .bar2 {
-      transform: rotate(38deg) translate(-1px, -1px);
-      margin: 2px 0px;
-  }
+
   .navbar {
     position: relative;
     display: flex;
@@ -65,14 +62,46 @@ color:white;
     height: 100%;
     width: 100%;
 }
+.AppleTH{
+    display: block;
+    text-decoration: none !important;
+    font-size: 14px !important;
+    padding-top:5px!important;
+    color: aliceblue;
+
+}
+
+.paragraph{
+    margin-top:-27%; 
+    font-size: 40px!important;
+}
 
 @media (max-width: 768px) { 
     .banner  {
-        margin-top: 4px;
-        height: 100%;
-        width: 100%;
+        margin-top: 6px;
+        height: 370px;
+        width: 100%;    
     }
+    .paragraph{
+        margin-top:-26%; 
+        font-size: 25px!important;
+    }
+  
     
+ }
+
+ @media (max-width: 576px) { 
+    .paragraph{
+        font-size: 20px!important;
+        margin-top:-45%; 
+
+    }
+    .banner  {
+        margin-top: 1px;
+        height: 370px;
+        width: 100%;    
+    }
+ 
  }
 
 
@@ -85,3 +114,7 @@ color:white;
     margin-top:150px;
 }
 
+.ProductItem{
+    margin-top:30%;
+    margin-bottom: -28%;
+}
