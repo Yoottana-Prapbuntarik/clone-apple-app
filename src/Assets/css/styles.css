@@ -86,6 +86,11 @@ color:white;
         margin-top:-26%; 
         font-size: 25px!important;
     }
+    .jumbotron{
+        display: none;
+    }
+
+    
   
     
  }
@@ -100,6 +105,9 @@ color:white;
         margin-top: 1px;
         height: 370px;
         width: 100%;    
+    }
+    .jumbotron{
+        display: none;
     }
  
  }
@@ -117,4 +125,11 @@ color:white;
 .ProductItem{
     margin-top:30%;
     margin-bottom: -28%;
+}
+.cardContent{
+    background: #f2f2f2!important;
+}
+.cardContent :hover{
+    background: #c5c5c5 !important;
+    text-decoration: none;
 }
