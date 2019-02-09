@@ -15,11 +15,11 @@
   margin-left: 60px;
   color: white;
   margin-right: -37px;
-text-decoration: none;
-font-size: 14px;
-margin-left: 68px;
-margin-right: 8px;
-color:white;
+  text-decoration: none;
+  font-size: 14px;
+  margin-left: 68px;
+  margin-right: 8px;
+    color:white;
 }
 .navbarLink:hover {
   text-decoration: none;
@@ -29,8 +29,6 @@ color:white;
   color: white;
   opacity: 0.65;
   }
-
-
 
 
   .navbar-toggler-icon {
@@ -50,11 +48,6 @@ color:white;
 
 
 }
-
-
-
-
-
 
 /* banner */
 .banner  {
@@ -132,4 +125,12 @@ color:white;
 .cardContent :hover{
     background: #c5c5c5 !important;
     text-decoration: none;
+}
+
+/* Footer */
+
+.Footer{
+    margin-top: 30%;
+    background: rgb(204, 204, 204);
+    height: 200px;
 }

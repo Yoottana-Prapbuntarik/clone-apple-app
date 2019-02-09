@@ -24,6 +24,8 @@ import ipod from '../Assets/images/ipod.png';
 import tv1 from '../Assets/images/tv1.png';
 import tv2 from '../Assets/images/tv2.png';
 import tv3 from '../Assets/images/tv3.png';
+
+import Footer from '../components/Footer'
 export default class Home extends Component {
   render() {
     return (
@@ -122,6 +124,7 @@ export default class Home extends Component {
 
 </div>
 </div>
+<Footer />
 </div >
 
 
